@@ -1,0 +1,36 @@
+.content {
+    padding: 40px;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+.card {
+    padding: 20px 40px;
+    min-height: calc(100vh - 150px);
+}
+
+.item-content {
+    margin-left: -4px;
+    margin-right: -4px;
+    font-weight: 600;
+
+    &:hover {
+        background-color: #b93e3e;
+        color: aliceblue;
+    }
+}
+
+
+a {
+    font-weight: 600;
+    color: #666f77;
+
+    &.router-link-exact-active {
+        color: #ffffff;
+
+        & #link.va-sidebar-item {
+            background: #4c81f3;
+            color: #ffffff;
+        }
+    }
+}
